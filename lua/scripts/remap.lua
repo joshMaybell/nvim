@@ -53,3 +53,7 @@ vim.keymap.set("n", "<C-K>", "5kzz")
 
 vim.keymap.set("n", "<C-h>", "5h")
 vim.keymap.set("n", "<C-l>", "5l")
+
+vim.keymap.set("n", "$", "$l")
+
+vim.keymap.set('t', '<C-l><C-l>', [[<C-\><C-N>:lua ClearTerm(0)<CR>]])
