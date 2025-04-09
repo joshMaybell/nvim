@@ -25,7 +25,7 @@
     "rust-analyzer.enable": true,
     "rust-analyzer.rustfmt.extraArgs": [
         "--config",
-        "max_width=88"
+        "max_width=80"
     ],
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
@@ -36,6 +36,10 @@
         "$HOME/.cargo/**",
         "$HOME/.rustup/**"
     ],
+    "rust-analyzer.inlayHints.maxLength": 0,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
     "snippets.ultisnips.pythonPrompt": false,
     "yaml.format.enable": true
 }
