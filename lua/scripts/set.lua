@@ -14,6 +14,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
+vim.opt.writebackup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
@@ -38,3 +39,5 @@ vim.opt.splitright = true
 vim.g.coc_snippet_next = "<C-n>"
 vim.g.coc_snippet_prev = "<C-p>"
 vim.g.coc_snippet_active = 1
+
+vim.opt.ve = "onemore"
